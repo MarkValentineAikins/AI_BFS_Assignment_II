@@ -7,6 +7,7 @@ on top of another stack. In other words, a block can only be moved if it is the
 uppermost block on a stack.
 - No larger block may be placed on top of a smaller block. In this exercise, the size
 of a block is indicated by its numeric label.
+
 Assuming that the order of move operators is fromStack1_toStack2, fromStack2_toStack3,
 fromStack1_toStack3, fromStack3_toStack2, fromStack2_toStack1, fromStack3_toStack1,
 write a python script that implements breadth-first search for the given problem. Your
